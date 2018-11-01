@@ -9,11 +9,14 @@ namespace lab3.Models
     {
         public IList<Task> QueueTasks { get; set; }
 
-        public bool IsBlock => QueueTasks.Count >= 2;
-
         public Queue()
         {
             QueueTasks = new List<Task>();
+        }
+
+        public bool IsBlock()
+        {
+            return QueueTasks.Count >= 2;
         }
 
         public bool IsQueueEmpty()
@@ -26,12 +29,9 @@ namespace lab3.Models
             QueueTasks.ToList().ForEach(t => t.CountInQ++);
         }
 
-        public bool AddTask(Task task)
+        public void AddTask(Task task)
         {
-            if (IsBlock) return false;
-
             QueueTasks.Add(task);
-            return true;
         }
 
         public Task RemoveTask()
