@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace lab3
+namespace ModLab4
 {
     static class Program
     {

@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Windows.Forms;
 
-namespace lab3
+namespace ModLab4
 {
     public partial class Form1 : Form
     {

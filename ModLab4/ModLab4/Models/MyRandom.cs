@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace lab3.Models
+namespace ModLab4.Models
 {
     public class MyRandom
     {

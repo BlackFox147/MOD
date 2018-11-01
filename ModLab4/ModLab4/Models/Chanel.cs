@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace lab3.Models
+﻿namespace ModLab4.Models
 {
     public class Chanel
     {

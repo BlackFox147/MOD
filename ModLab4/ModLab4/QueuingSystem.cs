@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using lab3.Models;
+using ModLab4.Models;
 
-namespace lab3
+namespace ModLab4
 {
     public class QueuingSystem
     {

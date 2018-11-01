@@ -1,4 +1,4 @@
-﻿namespace lab3
+﻿namespace ModLab4
 {
     partial class Form1
     {
@@ -219,7 +219,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::lab3.Properties.Resources.Снимок;
+            this.pictureBox1.Image = global::ModLab4.Properties.Resources.Снимок;
             this.pictureBox1.Location = new System.Drawing.Point(281, 15);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
