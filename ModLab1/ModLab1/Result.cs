@@ -113,7 +113,7 @@ namespace ModLab1
 
         private int GetL(IReadOnlyList<double> xn, int p)
         {
-            for (int i = 1; i < xn.Count - p; i += 2)
+            for (int i = 0; i < xn.Count - p; i += 2)
             {
                 if (Equals(xn[i], xn[i+p]))
                 {
